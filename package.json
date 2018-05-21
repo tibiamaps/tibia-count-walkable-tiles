@@ -1,0 +1,34 @@
+{
+  "name": "tibia-count-walkable-tiles",
+  "version": "0.0.0",
+  "description": "A utility to calculate the number of walkable tiles in a given set of PNGs containing Tibia 11-compatible pathfinding data.",
+  "homepage": "https://tibiamaps.io/",
+  "main": "index.js",
+  "keywords": [
+    "mmorpg",
+    "tibia",
+    "tibia-maps"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tibiamaps/tibia-count-walkable-tiles.git"
+  },
+  "bugs": "https://github.com/tibiamaps/tibia-count-walkable-tiles/issues",
+  "files": [
+    "LICENSE-MIT.txt",
+    "index.js",
+    "cli.js"
+  ],
+  "bin": "cli.js",
+  "scripts": {
+    "test": "tests/test.sh"
+  },
+  "dependencies": {
+    "canvas": "^1.6.11"
+  }
+}
