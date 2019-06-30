@@ -1,6 +1,6 @@
 {
   "name": "tibia-count-walkable-tiles",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A utility to calculate the number of walkable tiles in a given set of PNGs containing Tibia 11-compatible pathfinding data.",
   "homepage": "https://tibiamaps.io/",
   "main": "index.js",
