@@ -11,7 +11,7 @@ const memoizedCanvasContext = (width, height) => {
 	if (canvasMap.has(id)) {
 		return canvasMap.get(id);
 	}
-	const canvas = new Canvas(width, height);
+	const canvas = Canvas.createCanvas(width, height);
 	const context = canvas.getContext('2d');
 	const result = { canvas, context };
 	canvasMap.set(id, result);
