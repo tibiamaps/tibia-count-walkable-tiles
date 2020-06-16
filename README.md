@@ -1,4 +1,4 @@
-# `tibia-count-walkable-tiles` [![Build status](https://travis-ci.org/tibiamaps/tibia-count-walkable-tiles.svg?branch=master)](https://travis-ci.org/tibiamaps/tibia-count-walkable-tiles)
+# `tibia-count-walkable-tiles` [![Build status](https://travis-ci.org/tibiamaps/tibia-count-walkable-tiles.svg?branch=main)](https://travis-ci.org/tibiamaps/tibia-count-walkable-tiles)
 
 Given a set of PNGs containing Tibia 11-compatible pathfinding data, `tibia-count-walkable-tiles` calculates the total number of walkable tiles, i.e. the number of tiles that are [not unexplored or non-walkable](https://tibiamaps.io/guides/minimap-file-format#pathfinding-data).
 
