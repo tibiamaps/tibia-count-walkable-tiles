@@ -38,7 +38,7 @@ const getPixels = (fileName) => {
 };
 
 // https://tibiamaps.io/guides/minimap-file-format#pathfinding-data
-const UNEXPLORED = { r: 0xFA, g: 0xFA, b: 0xFA };
+const UNEXPLORED = { r: 0xFF, g: 0x00, b: 0xFF };
 const NON_WALKABLE = { r: 0xFF, g: 0xFF, b: 0x00 };
 
 const countWalkablePixels = (pixels) => {
