@@ -29,6 +29,6 @@
     "test": "tests/test.sh"
   },
   "dependencies": {
-    "canvas": "^2.5.0"
+    "canvas": "^3.0.0"
   }
 }
